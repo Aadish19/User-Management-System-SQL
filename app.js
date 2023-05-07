@@ -8,7 +8,7 @@ require('dotenv').config(); // center place for all credentials
 
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 // parsing Middleware
 //Parse application/x--www-form-urlencoded
